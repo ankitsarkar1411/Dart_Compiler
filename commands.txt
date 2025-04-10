@@ -1,0 +1,6 @@
+win+r
+cmd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
+cd C:\Users\Ankit\Documents\cd_project
+cl dart_lexer.c
+dart_lexer.exe test.dart
